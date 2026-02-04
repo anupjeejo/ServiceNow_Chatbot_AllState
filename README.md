@@ -33,11 +33,11 @@ This project is designed for **enterprise, production-grade environments** and r
 
 ## 📁 Project Structure (Simplified)
 servicenow-ai-agent/
-├── backend/ # FastAPI + AI agents + FAISS
-├── frontend/ # Streamlit chat UI
-├── docs/
-├── .gitignore
-└── README.md
+- ├── backend/ # FastAPI + AI agents + FAISS
+- ├── frontend/ # Streamlit chat UI
+- ├── docs/
+- ├── .gitignore
+- └── README.md
 
 ---
 
