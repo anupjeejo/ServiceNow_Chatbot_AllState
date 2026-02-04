@@ -56,7 +56,7 @@ OLLAMA_URL=http://localhost:11434/api/generate
 
 ---
 
-##Backend Setup
+## Backend Setup
 cd backend
 python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
@@ -64,22 +64,25 @@ pip install -r requirements.txt
 
 ---
 
-##Frontend Setup
+## Frontend Setup
 cd frontend
 pip install -r requirements.txt
 
 ---
 
-##Start Backend (FastAPI)
+## Start Backend (FastAPI)
 uvicorn app.main:app --reload
 
 ---
 
-##Start Backend (FastAPI)
-cd frontend
-pip install -r requirements.txt
+## Start Frontend (Streamlit)
+streamlit run app.py
+
+## Sample App Screen-shots
+
+<img width="777" height="862" alt="image" src="https://github.com/user-attachments/assets/70edf215-1e6e-43bb-9758-1a51388c786f" />
 
 ---
 
-##Start Frontend (Streamlit)
-streamlit run app.py
+<img width="1652" height="555" alt="image" src="https://github.com/user-attachments/assets/f0a9cfa6-55bc-4adf-9cd1-4e5123fe2809" />
+
