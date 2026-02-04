@@ -49,34 +49,34 @@ servicenow-ai-agent/
 ---
 
 ## .env example
-SN_INSTANCE=https://devXXXX.service-now.com
-SN_USER=api_user
-SN_PASSWORD=api_password
-OLLAMA_URL=http://localhost:11434/api/generate
+- SN_INSTANCE=https://devXXXX.service-now.com
+- SN_USER=api_user
+- SN_PASSWORD=api_password
+- OLLAMA_URL=http://localhost:11434/api/generate
 
 ---
 
 ## Backend Setup
-cd backend
-python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
+- cd backend
+- python -m venv .venv
+- source .venv/bin/activate   # Windows: .venv\Scripts\activate
+- pip install -r requirements.txt
 
 ---
 
 ## Frontend Setup
-cd frontend
-pip install -r requirements.txt
+- cd frontend
+- pip install -r requirements.txt
 
 ---
 
 ## Start Backend (FastAPI)
-uvicorn app.main:app --reload
+- uvicorn app.main:app --reload
 
 ---
 
 ## Start Frontend (Streamlit)
-streamlit run app.py
+- streamlit run app.py
 
 ## Sample App Screen-shots
 
