@@ -1,6 +1,12 @@
 import requests
 from backend.app.core.config import settings
 
+
+def _servicenow_auth():
+    settings.validate_servicenow()
+    return settings.SN_USER, settings.SN_PASSWORD
+
+
 def get_similar_incidents(query: str):
     url = f"{settings.SN_INSTANCE}/api/now/table/incident"
     params = {
@@ -8,7 +14,7 @@ def get_similar_incidents(query: str):
         "sysparm_limit": 5,
         "sysparm_fields": "number,close_notes"
     }
-    r = requests.get(url, auth=(settings.SN_USER, settings.SN_PASSWORD), params=params)
+    r = requests.get(url, auth=_servicenow_auth(), params=params)
     return [
         {"number": i["number"], "resolution": i.get("close_notes", "")}
         for i in r.json()["result"] if i.get("close_notes")
@@ -25,7 +31,7 @@ def create_incident(issue: dict, assignment_group: str) -> str:
 
     r = requests.post(
         f"{settings.SN_INSTANCE}/api/now/table/incident",
-        auth=(settings.SN_USER, settings.SN_PASSWORD),
+        auth=_servicenow_auth(),
         json=payload
     )
 
@@ -42,7 +48,7 @@ def get_closed_incidents_for_index(limit=50):
 
     r = requests.get(
         url,
-        auth=(settings.SN_USER, settings.SN_PASSWORD),
+        auth=_servicenow_auth(),
         params=params
     )
 
@@ -66,7 +72,7 @@ def get_closed_incidents_for_index(limit=50):
 
     r = requests.get(
         url,
-        auth=(settings.SN_USER, settings.SN_PASSWORD),
+        auth=_servicenow_auth(),
         params=params
     )
 
