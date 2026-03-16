@@ -1,4 +1,4 @@
-from backend.app.core.vector_bootstrap import vector_store
+from app.core.vector_bootstrap import vector_store
 
 def run(state):
     if not vector_store.index:
