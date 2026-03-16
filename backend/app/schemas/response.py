@@ -1,5 +1,7 @@
-from pydantic import BaseModel
 from typing import List
+
+from pydantic import BaseModel
+
 
 class AIResponse(BaseModel):
     ticket_number: str
@@ -7,3 +9,8 @@ class AIResponse(BaseModel):
     workaround: str
     confidence: str
     based_on_incidents: List[str]
+
+
+class IncidentQueryResponse(BaseModel):
+    incident_number: str
+    answer: str
