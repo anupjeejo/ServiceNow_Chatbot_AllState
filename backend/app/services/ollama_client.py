@@ -1,6 +1,6 @@
 import requests
-from backend.app.core.config import settings
-from backend.app.utils.json_sanitizer import extract_json
+from app.core.config import settings
+from app.utils.json_sanitizer import extract_json
 
 def call_ollama(prompt: str) -> dict:
     r = requests.post(

@@ -1,5 +1,5 @@
 from langgraph.graph import StateGraph, END
-from backend.app.agents import (
+from app.agents import (
     parser_agent,
     retrieval_agent,
     workaround_agent,

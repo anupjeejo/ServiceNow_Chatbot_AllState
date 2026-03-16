@@ -1,7 +1,7 @@
 from fastapi import FastAPI
-from backend.app.api.routes import router
-from backend.app.core.config import settings
-from backend.app.core.vector_bootstrap import initialize_vector_store
+from app.api.routes import router
+from app.core.config import settings
+from app.core.vector_bootstrap import initialize_vector_store
 
 app = FastAPI(title="ServiceNow AI Agent")
 

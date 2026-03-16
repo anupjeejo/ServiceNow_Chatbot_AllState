@@ -1,5 +1,5 @@
-from backend.app.services.vector_store import VectorStore
-from backend.app.services.servicenow_client import get_closed_incidents_for_index
+from app.services.vector_store import VectorStore
+from app.services.servicenow_client import get_closed_incidents_for_index
 
 vector_store = VectorStore()
 

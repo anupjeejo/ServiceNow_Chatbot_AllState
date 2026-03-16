@@ -1,8 +1,8 @@
 from fastapi import APIRouter, HTTPException
-from backend.app.schemas.request import IncidentInput
-from backend.app.schemas.response import AIResponse
-from backend.app.graph.workflow import workflow
-from backend.app.services.servicenow_client import create_incident
+from app.schemas.request import IncidentInput
+from app.schemas.response import AIResponse
+from app.graph.workflow import workflow
+from app.services.servicenow_client import create_incident
 
 router = APIRouter()
 

@@ -1,4 +1,4 @@
-from backend.app.services.ollama_client import call_ollama
+from app.services.ollama_client import call_ollama
 
 def run(state):
     prompt = f"""
