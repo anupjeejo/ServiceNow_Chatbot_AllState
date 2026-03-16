@@ -6,7 +6,7 @@ def call_ollama(prompt: str) -> dict:
     r = requests.post(
         settings.OLLAMA_URL,
         json={"model": "gemma3:4b", "prompt": prompt, "stream": False},
-        timeout=60
+        timeout=200
     )
     raw = r.json()["response"]
     print("OLLAMA RAW >>>", raw)

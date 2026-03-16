@@ -40,7 +40,7 @@ if user_input:
                 resp = requests.post(
                     API_URL,
                     json={"message": user_input},
-                    timeout=60,
+                    timeout=200,
                 )
                 resp.raise_for_status()
                 data = resp.json()
