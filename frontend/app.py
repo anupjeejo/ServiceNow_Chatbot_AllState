@@ -89,49 +89,50 @@ with query_tab:
         key="incident_number_input",
     )
 
+    with st.form("incident_query_form", clear_on_submit=True):
+        query_input = st.text_input(
+            "Query",
+            placeholder="Ask a question about this incident...",
+            label_visibility="collapsed",
+        )
+        submitted = st.form_submit_button("Ask")
+
+    if submitted:
+        if not incident_number.strip():
+            st.warning("Please enter an incident number before asking a question.")
+        elif not query_input.strip():
+            st.warning("Please enter a query before submitting.")
+        else:
+            user_md = f"**Incident:** `{incident_number.strip()}`\n\n{query_input.strip()}"
+            st.session_state.query_messages.append({"role": "user", "content": user_md})
+
+            with st.spinner("Looking up incident and preparing answer..."):
+                try:
+                    resp = requests.post(
+                        INCIDENT_QUERY_API_URL,
+                        json={
+                            "incident_number": incident_number.strip(),
+                            "question": query_input.strip(),
+                        },
+                        timeout=200,
+                    )
+                    resp.raise_for_status()
+                    data = resp.json()
+
+                    assistant_md = f"{data['answer']}"
+                    st.session_state.query_messages.append(
+                        {"role": "assistant", "content": assistant_md}
+                    )
+                except Exception as e:
+                    error_msg = f"❌ Unable to answer your question.\n\nError: `{e}`"
+                    st.session_state.query_messages.append(
+                        {"role": "assistant", "content": error_msg}
+                    )
+
+    # for msg in reversed(st.session_state.query_messages):
     for msg in st.session_state.query_messages:
         with st.chat_message(msg["role"]):
             st.markdown(msg["content"])
-
-    query_input = st.chat_input(
-        "Ask a question about this incident...",
-        key="incident_query_chat_input",
-    )
-
-    if query_input:
-        if not incident_number.strip():
-            st.warning("Please enter an incident number before asking a question.")
-        else:
-            user_md = f"**Incident:** `{incident_number.strip()}`\n\n{query_input}"
-            st.session_state.query_messages.append({"role": "user", "content": user_md})
-            with st.chat_message("user"):
-                st.markdown(user_md)
-
-            with st.chat_message("assistant"):
-                with st.spinner("Looking up incident and preparing answer..."):
-                    try:
-                        resp = requests.post(
-                            INCIDENT_QUERY_API_URL,
-                            json={
-                                "incident_number": incident_number.strip(),
-                                "question": query_input,
-                            },
-                            timeout=200,
-                        )
-                        resp.raise_for_status()
-                        data = resp.json()
-
-                        assistant_md = f"{data['answer']}"
-                        st.markdown(assistant_md)
-                        st.session_state.query_messages.append(
-                            {"role": "assistant", "content": assistant_md}
-                        )
-                    except Exception as e:
-                        error_msg = f"❌ Unable to answer your question.\n\nError: `{e}`"
-                        st.markdown(error_msg)
-                        st.session_state.query_messages.append(
-                            {"role": "assistant", "content": error_msg}
-                        )
 
 st.divider()
 st.caption(
