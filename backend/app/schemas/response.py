@@ -14,3 +14,9 @@ class AIResponse(BaseModel):
 class IncidentQueryResponse(BaseModel):
     incident_number: str
     answer: str
+    kb_references: List[str] | None = None
+
+
+class IncidentKBSaveResponse(BaseModel):
+    kb_name: str
+    message: str

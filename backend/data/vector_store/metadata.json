@@ -1,0 +1,350 @@
+[
+  {
+    "source": "incident",
+    "incident_number": "INC0000038",
+    "number": "INC0000038",
+    "resolution": "my PDF docs are all locked from editing Closed before close notes were made mandatory\n\t\t",
+    "assignment_group": null,
+    "doc_key": "incident::INC0000038",
+    "text": "my PDF docs are all locked from editing Closed before close notes were made mandatory\n\t\t"
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0000026",
+    "number": "INC0000026",
+    "resolution": "Seem to have an issue with my hard drive... Closed before close notes were made mandatory\n\t\t",
+    "assignment_group": null,
+    "doc_key": "incident::INC0000026",
+    "text": "Seem to have an issue with my hard drive... Closed before close notes were made mandatory\n\t\t"
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0000028",
+    "number": "INC0000028",
+    "resolution": "My disk is still having issues. Can't delete a file Closed before close notes were made mandatory\n\t\t",
+    "assignment_group": null,
+    "doc_key": "incident::INC0000028",
+    "text": "My disk is still having issues. Can't delete a file Closed before close notes were made mandatory\n\t\t"
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0000030",
+    "number": "INC0000030",
+    "resolution": "Lost connection to the wireless network Closed before close notes were made mandatory\n\t\t",
+    "assignment_group": null,
+    "doc_key": "incident::INC0000030",
+    "text": "Lost connection to the wireless network Closed before close notes were made mandatory\n\t\t"
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0000021",
+    "number": "INC0000021",
+    "resolution": "New employee hire Closed before close notes were made mandatory\n\t\t",
+    "assignment_group": null,
+    "doc_key": "incident::INC0000021",
+    "text": "New employee hire Closed before close notes were made mandatory\n\t\t"
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0000024",
+    "number": "INC0000024",
+    "resolution": "Issue with a web page on wiki Closed before close notes were made mandatory\n\t\t",
+    "assignment_group": null,
+    "doc_key": "incident::INC0000024",
+    "text": "Issue with a web page on wiki Closed before close notes were made mandatory\n\t\t"
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0000033",
+    "number": "INC0000033",
+    "resolution": "File Server is 80% full - Needs upgrade Closed before close notes were made mandatory\n\t\t",
+    "assignment_group": null,
+    "doc_key": "incident::INC0000033",
+    "text": "File Server is 80% full - Needs upgrade Closed before close notes were made mandatory\n\t\t"
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0000035",
+    "number": "INC0000035",
+    "resolution": "Reset my password Closed before close notes were made mandatory\n\t\t",
+    "assignment_group": null,
+    "doc_key": "incident::INC0000035",
+    "text": "Reset my password Closed before close notes were made mandatory\n\t\t"
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0000036",
+    "number": "INC0000036",
+    "resolution": "Issue with networking Closed before close notes were made mandatory\n\t\t",
+    "assignment_group": null,
+    "doc_key": "incident::INC0000036",
+    "text": "Issue with networking Closed before close notes were made mandatory\n\t\t"
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0012004",
+    "number": "INC0012004",
+    "resolution": "Laptop overheating and poor performance Restart the laptop, ensure vents are not blocked, and close unnecessary background applications. Performance improves temporarily after reboot.",
+    "assignment_group": null,
+    "doc_key": "incident::INC0012004",
+    "text": "Laptop overheating and poor performance Restart the laptop, ensure vents are not blocked, and close unnecessary background applications. Performance improves temporarily after reboot."
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0009002",
+    "number": "INC0009002",
+    "resolution": "My computer is not detecting the headphone device This is not an issue with the USB port. Replaced the headset to resolve the issue.",
+    "assignment_group": null,
+    "doc_key": "incident::INC0009002",
+    "text": "My computer is not detecting the headphone device This is not an issue with the USB port. Replaced the headset to resolve the issue."
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0000014",
+    "number": "INC0000014",
+    "resolution": "Missing my home directory Done",
+    "assignment_group": null,
+    "doc_key": "incident::INC0000014",
+    "text": "Missing my home directory Done"
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0012003",
+    "number": "INC0012003",
+    "resolution": "Access denied when opening internal HR portal Clear browser cookies and cache, log out of SSO completely, and log in again. Access works temporarily when using an incognito browser session.",
+    "assignment_group": null,
+    "doc_key": "incident::INC0012003",
+    "text": "Access denied when opening internal HR portal Clear browser cookies and cache, log out of SSO completely, and log in again. Access works temporarily when using an incognito browser session."
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0012006",
+    "number": "INC0012006",
+    "resolution": "Remote connection drops frequently Restart VPN services, reconnect using a wired network, and avoid concurrent bandwidth-heavy applications. Issue temporarily resolves after reconnect.",
+    "assignment_group": null,
+    "doc_key": "incident::INC0012006",
+    "text": "Remote connection drops frequently Restart VPN services, reconnect using a wired network, and avoid concurrent bandwidth-heavy applications. Issue temporarily resolves after reconnect."
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0012002",
+    "number": "INC0012002",
+    "resolution": "Outlook crashes when opening emails with attachments Start Outlook in Safe Mode, disable third-party add-ins, and clear the local Outlook cache. Users can access emails temporarily through Outlook Web Access.",
+    "assignment_group": null,
+    "doc_key": "incident::INC0012002",
+    "text": "Outlook crashes when opening emails with attachments Start Outlook in Safe Mode, disable third-party add-ins, and clear the local Outlook cache. Users can access emails temporarily through Outlook Web Access."
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0012001",
+    "number": "INC0012001",
+    "resolution": "VPN disconnects intermittently after login Restart the VPN client service, reconnect using SSL mode instead of IPSec, and avoid switching between Wi-Fi and LAN. Temporary stability observed after service restart.",
+    "assignment_group": null,
+    "doc_key": "incident::INC0012001",
+    "text": "VPN disconnects intermittently after login Restart the VPN client service, reconnect using SSL mode instead of IPSec, and avoid switching between Wi-Fi and LAN. Temporary stability observed after service restart."
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0011002",
+    "number": "INC0011002",
+    "resolution": "Outlook crashes when opening emails Start Outlook in Safe Mode, disable third-party add-ins, and clear the local cache. Users can access mail temporarily using Outlook Web",
+    "assignment_group": null,
+    "doc_key": "incident::INC0011002",
+    "text": "Outlook crashes when opening emails Start Outlook in Safe Mode, disable third-party add-ins, and clear the local cache. Users can access mail temporarily using Outlook Web"
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0009003",
+    "number": "INC0009003",
+    "resolution": "Cannot sign into the company portal app Reinstalled the app",
+    "assignment_group": null,
+    "doc_key": "incident::INC0009003",
+    "text": "Cannot sign into the company portal app Reinstalled the app"
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0011005",
+    "number": "INC0011005",
+    "resolution": "Teams audio not working in meetings Switch audio device to headset manually, reconnect the call, and restart Teams. Using Teams web version works temporarily.",
+    "assignment_group": null,
+    "doc_key": "incident::INC0011005",
+    "text": "Teams audio not working in meetings Switch audio device to headset manually, reconnect the call, and restart Teams. Using Teams web version works temporarily."
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0011004",
+    "number": "INC0011004",
+    "resolution": "Laptop overheating and slowing down Laptop becomes very slow and hot after 1\u20132 hours of usage.",
+    "assignment_group": null,
+    "doc_key": "incident::INC0011004",
+    "text": "Laptop overheating and slowing down Laptop becomes very slow and hot after 1\u20132 hours of usage."
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0011003",
+    "number": "INC0011003",
+    "resolution": "Unable to access internal portal Clear browser cookies, log out of SSO completely, and re-authenticate. If still failing, use incognito mode as a temporary workaround.",
+    "assignment_group": null,
+    "doc_key": "incident::INC0011003",
+    "text": "Unable to access internal portal Clear browser cookies, log out of SSO completely, and re-authenticate. If still failing, use incognito mode as a temporary workaround."
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0011001",
+    "number": "INC0011001",
+    "resolution": "VPN disconnects every few minutes Restart the VPN client service, reconnect using SSL mode instead of IPSec, and avoid switching networks (Wi-Fi \u2194 LAN). Issue typically resolves until permanent fix is applied.",
+    "assignment_group": null,
+    "doc_key": "incident::INC0011001",
+    "text": "VPN disconnects every few minutes Restart the VPN client service, reconnect using SSL mode instead of IPSec, and avoid switching networks (Wi-Fi \u2194 LAN). Issue typically resolves until permanent fix is applied."
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0009004",
+    "number": "INC0009004",
+    "resolution": "Defect tracking tool is down. Reverted to a previous version.",
+    "assignment_group": null,
+    "doc_key": "incident::INC0009004",
+    "text": "Defect tracking tool is down. Reverted to a previous version."
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0012005",
+    "number": "INC0012005",
+    "resolution": "Microsoft Teams audio not working in meetings Manually select the correct audio device in Teams settings, leave and rejoin the meeting, or use Teams web version as a temporary workaround.",
+    "assignment_group": null,
+    "doc_key": "incident::INC0012005",
+    "text": "Microsoft Teams audio not working in meetings Manually select the correct audio device in Teams settings, leave and rejoin the meeting, or use Teams web version as a temporary workaround."
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0000005",
+    "number": "INC0000005",
+    "resolution": "CPU load high for over 10 minutes Fixed",
+    "assignment_group": null,
+    "doc_key": "incident::INC0000005",
+    "text": "CPU load high for over 10 minutes Fixed"
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0000004",
+    "number": "INC0000004",
+    "resolution": "Forgot email password Walked him through settng his password, again.\n\t\t",
+    "assignment_group": null,
+    "doc_key": "incident::INC0000004",
+    "text": "Forgot email password Walked him through settng his password, again.\n\t\t"
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0000060",
+    "number": "INC0000060",
+    "resolution": "Unable to connect to email This incident is resolved.",
+    "assignment_group": null,
+    "doc_key": "incident::INC0000060",
+    "text": "Unable to connect to email This incident is resolved."
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0000008",
+    "number": "INC0000008",
+    "resolution": "Printer in my office is out of toner Closed before close notes were made mandatory\n\t\t",
+    "assignment_group": null,
+    "doc_key": "incident::INC0000008",
+    "text": "Printer in my office is out of toner Closed before close notes were made mandatory\n\t\t"
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0000009",
+    "number": "INC0000009",
+    "resolution": "Reset my password Closed before close notes were made mandatory\n\t\t",
+    "assignment_group": null,
+    "doc_key": "incident::INC0000009",
+    "text": "Reset my password Closed before close notes were made mandatory\n\t\t"
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0000010",
+    "number": "INC0000010",
+    "resolution": "Need Oracle 10GR2 installed Closed before close notes were made mandatory\n\t\t",
+    "assignment_group": null,
+    "doc_key": "incident::INC0000010",
+    "text": "Need Oracle 10GR2 installed Closed before close notes were made mandatory\n\t\t"
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0000011",
+    "number": "INC0000011",
+    "resolution": "Need new Blackberry set up Closed before close notes were made mandatory\n\t\t",
+    "assignment_group": null,
+    "doc_key": "incident::INC0000011",
+    "text": "Need new Blackberry set up Closed before close notes were made mandatory\n\t\t"
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0000013",
+    "number": "INC0000013",
+    "resolution": "EMAIL is slow when an attachment is involved Gave workaround",
+    "assignment_group": null,
+    "doc_key": "incident::INC0000013",
+    "text": "EMAIL is slow when an attachment is involved Gave workaround"
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0000032",
+    "number": "INC0000032",
+    "resolution": "EMAIL Server Down Again Closed before close notes were made mandatory\n\t\t",
+    "assignment_group": null,
+    "doc_key": "incident::INC0000032",
+    "text": "EMAIL Server Down Again Closed before close notes were made mandatory\n\t\t"
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0000034",
+    "number": "INC0000034",
+    "resolution": "Does not look like a backup occurred last night asdasdasdsad",
+    "assignment_group": null,
+    "doc_key": "incident::INC0000034",
+    "text": "Does not look like a backup occurred last night asdasdasdsad"
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0000012",
+    "number": "INC0000012",
+    "resolution": "Customer didn't receive eFax Closed before close notes were made mandatory\n\t\t",
+    "assignment_group": null,
+    "doc_key": "incident::INC0000012",
+    "text": "Customer didn't receive eFax Closed before close notes were made mandatory\n\t\t"
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0000006",
+    "number": "INC0000006",
+    "resolution": "Hangs when trying to print VISIO document Closed before close notes were made mandatory\n\t\t",
+    "assignment_group": null,
+    "doc_key": "incident::INC0000006",
+    "text": "Hangs when trying to print VISIO document Closed before close notes were made mandatory\n\t\t"
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0000601",
+    "number": "INC0000601",
+    "resolution": "The USB port on my PC stopped working As this is intermittent. Restarting the PC fixes this.",
+    "assignment_group": null,
+    "doc_key": "incident::INC0000601",
+    "text": "The USB port on my PC stopped working As this is intermittent. Restarting the PC fixes this."
+  },
+  {
+    "source": "incident",
+    "incident_number": "INC0000001",
+    "number": "INC0000001",
+    "resolution": "Can't read email Closed before close notes were made mandatory\n\t\t",
+    "assignment_group": null,
+    "doc_key": "incident::INC0000001",
+    "text": "Can't read email Closed before close notes were made mandatory\n\t\t"
+  },
+  {
+    "source": "kb",
+    "kb_name": "KB_01",
+    "doc_key": "kb::kb_01",
+    "text": "KB001 - VPN Disconnecting Frequently\nDescription\nUsers experience repeated VPN disconnections after login affecting access to internal systems.\nSymptoms\nFrequent disconnects, inability to access internal apps, session drops.\nAffected Systems\nVPN Gateway, End-user devices, Network infrastructure.\nCommon Causes\nNetwork instability, firewall interference, VPN client issues, server overload.\nWorkaround\nRestart VPN client, switch network, reinstall client, use alternate protocol.\nRoot Cause\nGateway overload, packet loss, incompatible client version.\nResolution\nUpgrade VPN client, increase gateway capacity, adjust timeout configs.\nRCA Steps\nAnalyze logs, validate sessions, check packet loss, review firewall rules.\nPrevention\nRegular updates, monitoring gateway load, proactive alerts.\n\nKB002 - Outlook Crashing on Attachments\nDescription\nOutlook crashes when opening emails with attachments.\nSymptoms\nApplication freeze, crash on click, error popups.\nAffected Systems\nOutlook client, Exchange server.\nCommon Causes\nAdd-in conflicts, corrupted PST, antivirus interference.\nWorkaround\nSafe mode, disable add-ins, repair Office.\nRoot Cause\nFaulty add-in or corrupt mailbox file.\nResolution\nRemove faulty add-ins, repair PST, reinstall Outlook.\nRCA Steps\nCheck event logs, analyze crash dumps, validate mailbox integrity.\nPrevention\nLimit add-ins, periodic mailbox maintenance.\n\nKB003 - Access Denied to Applications\nDescription\nUsers cannot access internal applications due to permission issues.\nSymptoms\nAccess denied errors, login failures.\nAffected Systems\nIAM systems, SSO, internal apps.\nCommon Causes\nIncorrect role mapping, expired tokens, sync issues.\nWorkaround\nRe-login, clear cache, request access.\nRoot Cause\nIAM misconfiguration or token validation failure.\nResolution\nFix role mapping, re-sync directories.\nRCA Steps\nCheck IAM roles, review SSO logs, validate group membership.\nPrevention\nAutomated role audits, monitoring IAM sync.\n\nKB004 - Laptop Performance Issues\nDescription\nSystem becomes slow and overheats.\nSymptoms\nLagging apps, high CPU usage, overheating.\nAffected Systems\nEnd-user devices.\nCommon Causes\nBackground processes, dust, outdated drivers.\nWorkaround\nRestart, clean vents, update drivers.\nRoot Cause\nThermal throttling or resource overload.\nResolution\nOptimize processes, clean hardware, update drivers.\nRCA Steps\nMonitor CPU, run diagnostics, check drivers.\nPrevention\nRegular maintenance, system monitoring.\n\nKB005 - Teams Audio Issues\nDescription\nUsers cannot hear audio during Teams meetings.\nSymptoms\nNo sound, device not detected.\nAffected Systems\nTeams app, OS audio system.\nCommon Causes\nWrong device selection, driver issues.\nWorkaround\nChange audio device, restart Teams.\nRoot Cause\nAudio misconfiguration or driver conflict.\nResolution\nUpdate drivers, fix device mapping.\nRCA Steps\nCheck device settings, test alternate devices.\nPrevention\nStandard device configs, driver updates."
+  }
+]

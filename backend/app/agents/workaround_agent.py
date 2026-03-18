@@ -13,21 +13,21 @@ def run(state):
     )
 
     prompt = f"""
-You are a Tier-2 IT support engineer.
+        You are a Tier-2 IT support engineer.
 
-Use ONLY the incidents below.
-Do NOT add explanations.
-Return ONLY valid JSON.
+        Use ONLY the incidents below.
+        Do NOT add explanations.
+        Return ONLY valid JSON.
 
-Schema:
-{{
-  "workaround": "string",
-  "confidence": "high|medium|low"
-}}
+        Schema:
+        {{
+            "workaround": "string",
+            "confidence": "high|medium|low"
+        }}
 
-Incidents:
-{incidents}
-"""
+        Incidents:
+        {incidents}
+    """
 
     try:
         state["workaround"] = call_ollama(prompt)

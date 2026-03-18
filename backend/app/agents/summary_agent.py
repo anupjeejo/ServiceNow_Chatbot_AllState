@@ -6,12 +6,13 @@ def run(state):
         return state
 
     prompt = f"""
-Summarize common root cause in 3 lines.
-Return JSON: {{ "summary": "" }}
+        Summarize common root cause in 3 lines.
+        Return JSON: {{ "summary": "" }}
 
-Data:
-{state["historical"]}
-"""
+        Data:
+        {state["historical"]}
+    """
+    
     result = call_ollama(prompt)
     state["summary"] = result.get("summary", "No summary available.")
     return state
